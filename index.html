@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magasin de Bonbons - Rakhman</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+            background-image: url('car.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #ffeb3b;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: white;
+        }
+        p {
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .product {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            color: black;
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product h2 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Magasin de Bonbons du Collège Vernie</h1>
+    <h2>Contact: 07 51 15 64 68</h2>
+</header>
+
+<main>
+    <img src="halal2.jpeg" alt="100" width="100" height="100">
+    <p id="Magasin">Bienvenue dans notre magasin de bonbons où vous trouverez toutes sortes de sucreries en stock !</p>
+
+    <div class="product-grid">
+        <!-- Produit 1 -->
+        <div class="product">
+            <img src="luttia.png.jpeg" alt="Bonbon Luttia">
+            <h2>Luttia - 1,90 €</h2>
+        </div>
+        <!-- Produit 2 -->
+        <div class="product">
+            <img src="sucettes-chupa-chups-best-of-150-pieces.jpg" alt="Sucettes Chupa Chups">
+            <h2>Chupa Chups - 0,50 €</h2>
+        </div>
+        <!-- Produit 3 -->
+        <div class="product">
+            <img src="51uS9uQ-9AL._AC_.jpg" alt="Bonbon classique">
+            <h2>Bonbon Classique - 1,90 €</h2>
+        </div>
+        <!-- Produit 4 -->
+        <div class="product">
+            <img src="pipas.jpg.png" alt="Pipas">
+            <h2>Pipas - 1,30 €</h2>
+        </div>
+        <!-- Produit 5 -->
+        <div class="product">
+            <img src="pipas-grillees-40g.jpg.png" alt="Pipas Grillées">
+            <h2>Pipas Grillées - 1,30 €</h2>
+        </div>
+        <!-- Produit 6 -->
+        <div class="product">
+            <img src="pipas-salees-40g.jpg.png" alt="Pipas Salées">
+            <h2>Pipas Salées - 1,30 €</h2>
+        </div>
+        <!-- Produit 7 -->
+        <div class="product">
+            <img src="lays-coffee-webstore.jpg" alt="Chips Lay's">
+            <h2>Lay's Chips - 2,30 €</h2>
+        </div>
+        <!-- Produit 8 -->
+        <div class="product">
+            <img src="camel-balls-100-pieces.jpg" alt="Camel Balls">
+            <h2>Camel Balls - 0,50 €</h2>
+        </div>
+        <!-- Produit 9 -->
+        <div class="product">
+            <img src="boules-magiques-gum-original.jpg.png" alt="Boules Magiques">
+            <h2>Boules Magiques - 0,50 €</h2>
+        </div>
+        <!-- Produit 10 -->
+        <div class="product">
+            <img src="055466_d1.jpg" alt="Canette Oasis">
+            <h2>Canette Oasis - 1,00 €</h2>
+        </div>
+        <!-- Produit 11 -->
+        <div class="product">
+            <img src="p_176G_210227221453.jpg" alt="Sucette Coeur">
+            <h2>Sucette Coeur - 0,70 €</h2>
+        </div>
+        <!-- Produit 12 -->
+        <div class="product">
+            <img src="sucette-too-ti-tache-langue.jpg" alt="Sucette Tache Langue">
+            <h2>Sucette Tache Langue - 0,20 €</h2>
+        </div>
+        <!-- Produit 13 -->
+        <div class="product">
+            <img src="macd.jpeg" alt="Menu McDonald's">
+            <h2>Menu McDonald's - 7,50 €</h2>
+        </div>
+    </div>
+</main>
+
+<footer>
+    © 2024 Magasin de Bonbons du Collège Vernie - Tous droits réservés
+</footer>
+
+</body>
+</html>
